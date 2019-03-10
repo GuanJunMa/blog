@@ -1,7 +1,7 @@
 ---
 title: "Ntpd和Ntpdate的区别"
 date: 2019-03-10T19:20:11+08:00
-draft: true
+draft: false
 tags: ["ntp", "ntpd", "ntpdate", "时间同步"]
 categories: ["devops"]
 keywords: []
