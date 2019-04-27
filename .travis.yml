@@ -4,7 +4,7 @@ addons:
   - lijinglin.dev
   snaps:
   - hugo
-install:
+script:
   - hugo version
   - hugo
 before_deploy:
