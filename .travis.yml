@@ -1,5 +1,7 @@
 dist: xenial
 addons:
+  ssh_known_hosts:
+  - lijinglin.dev
   snaps:
   - hugo
 before_install:
