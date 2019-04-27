@@ -1,8 +1,7 @@
 dist: xenial
 addons:
-  apt:
-    packages:
-    - hugo
+  snaps:
+  - hugo
 before_install:
 - openssl aes-256-cbc -K $encrypted_f0193fe2c4ee_key -iv $encrypted_f0193fe2c4ee_iv
   -in id_rsa.enc -out id_rsa -d
